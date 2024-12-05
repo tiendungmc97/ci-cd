@@ -51,7 +51,6 @@ input:-internal-autofill-selected {
 
 body {
   color: rgb(var(--foreground-rgb));
- 
 }
 
 @layer utilities {
