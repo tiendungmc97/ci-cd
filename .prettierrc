@@ -18,5 +18,6 @@
   "useTabs": false,
   "embeddedLanguageFormatting": "auto",
   "tabWidth": 2,
+  "endOfLine": "crlf",
   "plugins": ["prettier-plugin-tailwindcss"]
 }
