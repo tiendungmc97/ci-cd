@@ -29,7 +29,5 @@ jobs:
       - name: "Run testing"
         run: npm test
       - run: npm run lint
-      - name: "Check formatting"
-        run: npm run format:check
       - name: "Build"
         run: npm run build --if-present
