@@ -8,9 +8,6 @@ export interface ISeoLayoutProps {
     locale: string;
   };
 }
-const test = {
-  test: "test",
-};
 export default function SeoLayout(props: ISeoLayoutProps) {
   unstable_setRequestLocale(props.params.locale);
   const { children } = props;
