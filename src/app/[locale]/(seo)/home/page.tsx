@@ -7,8 +7,7 @@ export default function Home() {
   return (
     <div>
       {t("title")}
-      <div>test</div>
-
+      <div className="flex border-spacing-0 justify-start pe-4 ps-0">test</div>
       <div>hello</div>
     </div>
   );
