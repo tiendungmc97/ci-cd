@@ -3,5 +3,16 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.test.ts"],
+      "rules": {
+        // Disable all rules for test files
+        "prettier/prettier": "off",
+        // Disable "is not defined" rule for test files
+        "no-undef": "off"
+      }
+    }
+  ]
 }
