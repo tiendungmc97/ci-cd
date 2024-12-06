@@ -18,7 +18,7 @@ export default function SeoLayout(props: ISeoLayoutProps) {
           <div>hello world</div>
           <div>
             {test.map((item, index) => (
-              <div key={index}>{item}</div>
+              <div key={index}>{item} </div>
             ))}
           </div>
           <LocaleSwitcher />
