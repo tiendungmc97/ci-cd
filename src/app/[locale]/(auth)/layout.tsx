@@ -1,5 +1,6 @@
 import LocaleSwitcher from "@/app/components/LocaleSwitcher";
 import { unstable_setRequestLocale } from "next-intl/server";
+import React from "react";
 export interface ISeoLayoutProps {
   children: React.ReactNode;
   params: {
@@ -13,7 +14,7 @@ export default function SeoLayout(props: ISeoLayoutProps) {
     <html>
       <body>
         <div className="flex h-10 w-screen justify-between bg-gray-100">
-          <div></div>
+          <div>hello world</div>
           <LocaleSwitcher />
         </div>
         {children}
