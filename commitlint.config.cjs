@@ -5,17 +5,17 @@ module.exports = {
       2,
       "always",
       [
-        "build",
-        "chore",
-        "ci",
-        "docs",
-        "feat",
-        "fix",
-        "perf",
-        "refactor",
-        "revert",
-        "style",
-        "test",
+        "build", // Changes related to build or dependencies
+        "chore", // Maintenance tasks
+        "ci", // Continuous integration changes
+        "docs", // Documentation changes
+        "feat", // New feature
+        "fix", // Bug fix
+        "perf", // Performance improvements
+        "refactor", // Code refactoring
+        "revert", // Reverting commits
+        "style", // Code style changes
+        "test", // Test-related changes
       ],
     ],
     "subject-case": [2, "never", ["sentence-case", "start-case", "pascal-case", "upper-case"]],
