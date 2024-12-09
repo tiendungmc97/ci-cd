@@ -7,7 +7,6 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  output: "standalone",
   async redirects() {
     return [
       {
